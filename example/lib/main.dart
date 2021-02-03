@@ -67,8 +67,10 @@ class _MyAppState extends State<MyApp> {
                 width: double.infinity,
               ),
               Container(
+                margin: EdgeInsets.all(30.0),
+                color: Colors.lightBlue,
                 width: double.infinity,
-                height: 150,
+                height: 100,
                 child: CircularAwesomeRiveButton(
                   pause: false,
                   onPress: () {
